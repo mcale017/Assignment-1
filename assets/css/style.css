@@ -1,0 +1,206 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: url(../images/doodles.png) repeat;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 76px;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-color: #cccccc;
+}
+
+.menu {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 76px;
+}
+
+.name {
+    margin: 0 auto;
+    width: max-content;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 23px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.links {
+    margin: 0 auto;
+    width: max-content;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: right;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: default;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 30px 30px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.container h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+
+.container hr {
+    padding-bottom: 15px;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.picofme {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 15px;
+}
+
+#para1 {
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#para2 {
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaab;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.portfolio {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.pic1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33.333333333%
+}
+
+.pic2 {
+    position: absolute;
+    left: 33.3333333333333333%;
+    top: 0;
+    width: 33.3333333333%;
+}
+
+.pic3 {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 33.3333333333%
+}
+
+.pic4 {
+    position: absolute;
+    left: 33.333333333333333333%;
+    top: 250px;
+    width: 33.3333333333%
+}
+
+.pic5 {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    width: 33.3333333333%
+}
+
+.portfolio div img {
+    width: 80%;
+}
+
+.portfolio div h2 {
+    float: initial;
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    padding: 18px 0;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* footer will need to have position: fixed removed if you want to take a look at the last picture in the portfolio section but it's literally the same thing as the other 4. */
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    bottom: 0;
+    border-top: 10px solid #4aaaa5;
+}
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 10px;
+    color: #ffffff;
+    width: max-content;
+    text-align: center;
+}
